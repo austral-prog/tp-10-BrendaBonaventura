@@ -1,4 +1,4 @@
-def max_value(dic):
+def find_max_value(dic):
 	maximo=0
 	nombre = ""
 	for clave, valor in dic.items():
@@ -7,7 +7,7 @@ def max_value(dic):
 			nombre=clave
 	return nombre
 
-def reverse(dicc):
+def reverse_dict(dicc):
 	a={}
 	for clave, valor in dicc.items():
 		if valor in a:
@@ -16,7 +16,7 @@ def reverse(dicc):
 			a[valor]=clave
 	return a
 
-def word_frequency_counter(lista):
+def word_freq_counter(lista):
 	dic={}
 	for items in lista:
 		if items in dic:
