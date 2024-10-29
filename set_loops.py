@@ -1,4 +1,4 @@
-def unique_characters():
+def unique_strings():
 	ex=input("Ingrese un string: ")
 	esto=set(ex)
 	print(esto)
